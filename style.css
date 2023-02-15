@@ -1,0 +1,119 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #e0e5ec;
+
+}
+h1{
+  text-align: center;
+  color: #333;
+  font-size:50px ;
+  font-family: 'Lobster', cursive;
+}
+
+h1::before{
+  position: absolute;
+  content: "";
+  bottom: 0;
+  width: 40%;
+  height: 2px;
+  background-color: #98d9e1;
+  background-image: linear-gradient(315deg, #fea 0%,#a95 80%);
+
+}
+
+.btn-group{
+  margin: 40px auto;
+  text-align: center;
+}
+
+button{
+  margin:20px ;
+}
+
+.custom-btn{
+  width: 130px;
+  height: 40px;
+  border-radius: 5px;
+  padding: 10px 25px;
+  font-family:"lobster",cursive;
+  font-weight: 900;
+  cursor: pointer;
+  font-size: 16px;
+  outline: none;
+  border: transparent;
+  color: #fff;
+  text-shadow: 0 -1px 0px rgba(0, 0, 0, 0.4);
+
+}
+.custom-btn{
+  transform:translate(2px);
+  -webkit-transform: translate(2px);
+}
+
+.btn-1{
+  background: linear-gradient(180deg,#fea 0%,#dc8 49%,#a95,#dc8 100%);
+}
+
+.btn-2{
+  background: linear-gradient(top,#a95,#f2f2f2 25%,#fff 38%,#c5c5c5 63%,#f7f7f7 87%,#a95);
+  background: -webkit-linear-gradient(top, #a95,#fea 25%,#fff 38%,#dc8 63%, #fea 87%,#a95);
+}
+
+.btn-3{
+  background: linear-gradient(#a95,#fea);
+}
+.btn-4{
+ background-image: -webkit-repeating-linear-gradient(
+    left,rgba(255,238,170,0) 0%,
+    rgba(255,238,170,0) 3%,
+    rgba(255,238,170,0) 5%,
+    linear-gradient(180deg,#a95 0%,#fea 47%,#dc8 53%,#fea 100%)
+
+ ); 
+}
+
+.btn-5{
+  background: linear-gradient(180deg,#e6e6e6 0%,
+                rgba(0,0,0,0.25) 49%,
+                rgba(38,38,38,0.6) 51%,
+                rgba(0,0,0,0.25) 100%);
+}
+
+.btn-6{
+  background: linear-gradient(top,rgba(38,38,38,0.8),
+                #e6e6e6 25%,#fff 38%,#c5c5c5 87%,
+                rgba(38,38,38,0.8));
+  background:-webkit-linear-gradient(top,#c5c5c5,
+  #e6e6e6 25%,#fff 38%,#c5c5c5 87%,
+  #c5c5c5)
+}
+
+.btn-7{
+  background: linear-gradient(#c5c5c5,#e6e6e6);
+}
+
+.btn-8{
+  background-image: -webkit-repeating-linear-gradient(
+                      left,hsla(0,0%,100%,0) 0%,hsla(0,0%,100%,0) 6%,
+                      hsla(0,0%,100%,.1)100%),
+                      -webkit-repeating-linear-gradient(
+                        left,hsla(0,0%,0%,0)0%,hsla(0,0%,0%,0.3) 4%,
+                        hsla(0,0%,0%,0.03) 100%
+                      ),
+                      -webkit-repeating-linear-gradient(
+                        left,hsla(0,0%,100%,0)0%,hsla(0,0%,100%,0).2%,
+                        hsla(0,0%,100%,0.15) 100%
+                      ),
+                      linear-gradient(180deg,
+                         hsl(0,0%,78%) 0%,
+                         hsl(0,0%,90%) 47%,
+                         hsl(0,0%,78%) 53%,
+                         hsl(0,0%,70%) 100%)        
+                      ;
+
+}
